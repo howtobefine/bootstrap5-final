@@ -1,0 +1,32 @@
+.banner{
+    background-image: url(../images/home.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    @media (max-width:575.98px){
+        background-image: url(../images/home_mobile.png);
+    }
+}
+
+.banner-content{
+    color: #858972;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px #fff, -2px -2px #fff , 2px -2px #fff, -2px 2px #fff;
+}
+
+.service-banner{
+    background-image: url(../images/banner.png);
+    height: 288px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    @media (max-width:575.98px){
+        background-image: url(../images/banner_service-sm.png);
+        height: 215px;
+        background-size: contain;
+        
+    }
+}

@@ -1,0 +1,15 @@
+.service-img{
+    width: 203px;
+    object-fit: cover;
+    @media(max-width:575.98px){
+        width: 100px;
+    }
+}
+
+.title-img{
+    width: 250px;
+    object-fit: cover;
+    @media(max-width:575.98px){
+        width: 150px;
+    }
+}

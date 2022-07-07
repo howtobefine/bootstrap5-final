@@ -1,0 +1,38 @@
+.dialog {
+    color: #3a3a3a;
+    display: block;
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #3a3a3a;
+    border-radius: 12px;
+    width: 164px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.12rem;
+    font-weight: bold;
+}
+
+.dialog:before,
+.dialog:after {
+    border: solid transparent;
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.dialog:after {
+    border-width: 10px 10px 0 10px;
+    border-top-color: #fff;
+    top: 40px;
+    right: 72px;
+}
+
+.dialog:before {
+    border-width: 13px 13px 0 13px;
+    border-top-color: #3a3a3a;
+    position: absolute;
+    top: 40px;
+    right: 69px;
+}
