@@ -2,22 +2,14 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "variables";
 @import "utilities";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/utilities";
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Helpers
-@import "../node_modules/bootstrap/scss/helpers";
-
-// Utilities
-@import "../node_modules/bootstrap/scss/utilities/api";
-
 // custom
 @import "./component/xaxis";
-@import "./component/base";
-@import "./component/replace";
+@import "base";
+@import "./component/layout";
 @import "./component/banner";
 @import "./component/dialogue";
-@import "./component/hover";
+@import "hover";
 @import "./component/images";
